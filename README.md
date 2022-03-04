@@ -23,15 +23,15 @@ import (
 
 func main() {
     // Print in blue
-    Info.Println("I am an informative message")
+    console.Info.Println("I am an informative message")
 
     // Print in yellow
-    Warning.Println("I am a warning")
+    console.Warning.Println("I am a warning")
 
     // Print in red
-    Error.Println("I am an error")
+    console.Error.Println("I am an error")
 
     // Print in cyan
-    Debug.Println("I am a debug message")
+    console.Debug.Println("I am a debug message")
 }
 ```
